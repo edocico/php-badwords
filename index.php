@@ -8,7 +8,7 @@
 <body>
     <h1>Censura la parola</h1>
     <h4>Scegli una parola da censurare</h4>
-    <form action="text.php" method="post">
+    <form action="text.php" method="POST">
         <input type="text" name="replaced_word" placeholder="scrivi una parola">
         <input type="submit" value="Invia">
     </form>
