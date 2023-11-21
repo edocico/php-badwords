@@ -6,7 +6,7 @@ $replaced = $_POST['replaced_word'];
 
 $replacing = $_POST['replacing_word'];
 
-var_dump($text);
+
 ?>
 
 <!DOCTYPE html>
