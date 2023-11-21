@@ -4,9 +4,9 @@ $text = 'Bastoni salterà sicuramente le partite con Juventus e Benfica: poi le 
 
 $replaced = $_POST['replaced_word'];
 
-$replacing = $_POST['replacing_word']
+$replacing = $_POST['replacing_word'];
 
-
+var_dump($text);
 ?>
 
 <!DOCTYPE html>
@@ -21,6 +21,7 @@ $replacing = $_POST['replacing_word']
     <p>il testo originale é: <?php echo $text; ?> </p>
     <p>il testo è lungo: <?php echo strlen($text); ?> caratteri</p>
     <p>testo cambiato: <?php echo str_replace($replaced, $replacing, $text); ?></p>
-
+    <p>ora il testo è lungo: <?php echo strlen(str_replace($replaced, $replacing, $text)); ?></p>
+    
 </body>
 </html>
